@@ -59,7 +59,7 @@
       requireValue(container&&typeof container.replaceChildren==='function','A dedicated reader container is required.');
       this.model=new ReaderModel(book);this.root=container;this.doc=container.ownerDocument;this.renderers=options.renderers||{};this.listeners=[];this.visual=null;this.paused=false;this.destroyed=false;
       this.media=this.doc.defaultView.matchMedia('(prefers-reduced-motion: reduce)');
-      this.model.book.scenes.forEach(scene=>{if(scene.visual.kind==='renderer')requireValue(typeof this.renderers[scene.visual.rendererId]==='function','A declared scene renderer is not registered.');});
+      this.model.book.scenes.forEach(scene=>{if(scene.visual.kind==='renderer')requireValue(Object.prototype.hasOwnProperty.call(this.renderers,scene.visual.rendererId)&&typeof this.renderers[scene.visual.rendererId]==='function','A declared scene renderer is not registered.');});
       this.root.classList.add('story-reader');
       const header=this.element('header','story-reader-header');
       header.append(this.element('h1','',this.model.book.title),this.element('p','story-reader-author',this.model.book.author));
