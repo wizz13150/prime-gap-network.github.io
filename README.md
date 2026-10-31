@@ -61,6 +61,6 @@ The site uses original HTML/CSS/JS and SVG. Regenerate pages with `python tools/
 
 **PGN concept and initiative:** Rob Smith — `robert44444uk`
 
-**Initial supporting software and website preparation:** Alexandre Gasparoux — `Wizz`
+**Initial supporting software and website preparation:** `Wizz`
 
 Additional contributors and reused resources will be credited as the website develops.
