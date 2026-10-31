@@ -8,7 +8,7 @@ The community website for **Prime Gap Network (PGN)** — a collaborative prime-
 
 **[Visit the community website](https://wizz13150.github.io/prime-gap-network.github.io/)**
 
-Seven English-language pages cover the science, working network design, software, participation, FAQ, library, documented background, roadmap, and credits. An exact small-number sieve mission, gap challenge, prime-gap explorer, illustrated Scout session map, and searchable source library make the subject practical and approachable. All teaching interactions run locally; they are distinct from real search results and network rewards. A separate original three-shot visual study explores chance, patience, and checking; it is a cinematic prototype, not the complete Lafferty story.
+Seven English-language pages cover the science, working network design, software, participation, FAQ, library, documented background, roadmap, and credits. An exact small-number sieve mission, gap challenge, prime-gap explorer, illustrated Scout session map, and searchable source library make the subject practical and approachable. All teaching interactions run locally; they are distinct from real search results and network rewards. A separate original three-shot visual study explores chance, patience, and checking; it is a generic technical sample, not the story’s events or a final scene plan. The future illustrated reader has no three-scene limit.
 
 ## Purpose
 
@@ -62,5 +62,11 @@ The site uses original HTML/CSS/JS and SVG. Regenerate pages with `python tools/
 **PGN concept and initiative:** Rob Smith — `robert44444uk`
 
 **Initial supporting software and website preparation:** `Wizz`
+
+**Research tables and resources contributed/collected for PGN:** Rob Smith — `robert44444uk`
+
+**Scientific paper collection and research curation for PGN:** Rob Smith — `robert44444uk`
+
+Individual papers and external record tables retain their original authors and maintainers.
 
 Additional contributors and reused resources will be credited as the website develops.

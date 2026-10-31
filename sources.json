@@ -178,5 +178,10 @@
     "visual_study": "interlude.html",
     "full_story_included": false
   },
+  "curation_credits": {
+    "research_tables_and_resources": "Rob Smith · robert44444uk",
+    "paper_collection_and_curation": "Rob Smith · robert44444uk",
+    "original_authorship": "Individual scientific articles and external record tables retain their original authors and maintainers."
+  },
   "artwork": "Original native SVG, exact small-integer sieve mission, session-map illustrations, Canvas cinematic study, and browser code; no external imagery, audio, or video embeds."
 }
