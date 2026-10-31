@@ -1,10 +1,14 @@
 # Prime Gap Network · Community Website
 
-The future community website for **Prime Gap Network (PGN)** — a collaborative prime-gap research project conceived by **Rob Smith**, known on the forum as **robert44444uk**.
+The community website for **Prime Gap Network (PGN)** — a collaborative prime-gap research initiative conceived by **Rob Smith**, known on the forum as **robert44444uk**.
 
-> **Status: preparation stage.**
-> This repository currently introduces the website project.
-> No completed website or reservation service is announced here.
+> **Status: first community website draft.**
+> PGN Horizon/core/network remain a **testbed under construction**.
+> This website is an informational resource, not a ticket issuer, reservation service, wallet, or production explorer.
+
+**[Visit the community website](https://wizz13150.github.io/prime-gap-network.github.io/)**
+
+Seven English-language pages cover the science, working network design, software, participation, FAQ, library, documented background, roadmap, and credits. A small local prime-gap explorer and searchable source library add practical learning tools.
 
 ## Purpose
 
@@ -12,7 +16,7 @@ This website is intended to provide a clear, welcoming starting point for the PG
 
 The PGN concept and initiative are Robert’s. The supporting software and community infrastructure are being developed through collaboration.
 
-## Planned content
+## Content
 
 - **Project introduction** — PGN’s purpose, background and development direction.
 - **Research resources** — accessible explanations, references and terminology.
@@ -21,13 +25,13 @@ The PGN concept and initiative are Robert’s. The supporting software and commu
 - **Progress and results** — carefully labelled updates, with candidates, verified results and search coverage clearly distinguished.
 - **Contributors and credits** — recognition of the people and projects supporting PGN.
 
-These are intended sections, not claims of completed functionality.
+Protocol proposals are labelled. The site shows no fabricated live activity or performance counters. External scientific records remain under their maintainers' stewardship.
 
 ## Community reservations
 
-Reservation arrangements are being discussed with the community and existing record maintainers.
+Robert's current working **PGN network proposal uses authority-issued random tickets**, not manual PGN reservations. Its exact protocol remains under design and testing.
 
-The website should help participants understand and access the agreed system. It must not silently replace historical records or imply that a range is available without a reliable source.
+Historical community range registers and standalone Scout searches are separate. This website does not replace those records or declare a range available.
 
 ## Repository structure
 
@@ -43,13 +47,15 @@ Questions, research discussions and contributions are welcome.
 
 **[Join the PGN Discord](https://discord.gg/qZ2DerDMXQ)**
 
-Website maintainership, publication and contribution arrangements will be agreed with the participating community.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for local preview, source editing, validation, and contribution guidance.
 
 ## Hosting
 
-GitHub Pages is the intended hosting platform.
+GitHub Pages serves the `main` branch root, with no build dependencies.
 
-The final website address depends on the repository’s owning account. A root-level organization website requires a repository named `<organization>.github.io` owned by that organization.
+This is a project repository owned by `wizz13150`. Its Pages URL includes the repository path: **https://wizz13150.github.io/prime-gap-network.github.io/**. The name does not create a root-level organization site.
+
+The site uses original HTML/CSS/JS and SVG. Regenerate pages with `python tools/build.py`; see [docs/QA.md](docs/QA.md) and [sources.json](sources.json) for verification and source provenance.
 
 ## Credits
 

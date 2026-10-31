@@ -1,0 +1,31 @@
+{
+  "request": "B971-PGN-WEBSITE",
+  "reviewed": "2026-10-31T11:38:12.801Z",
+  "checks": {
+    "static": {
+      "html_documents": 8,
+      "internal_links": 209,
+      "sources": 17,
+      "errors": 0
+    },
+    "javascript_syntax": "passed",
+    "interaction_harness": "passed: four exact consecutive-prime examples, combined library filters, empty results/reset, menu Escape/focus",
+    "external_sources": "17/17 HTTP 200, including official YouTube oEmbed metadata"
+  },
+  "browser": {
+    "desktop_homepage": "visually inspected at 1920px",
+    "mobile_homepage": "visually inspected at 390px, no horizontal overflow",
+    "mobile_explorer": "23–29 selected; output gap 6, composites 5, merit 1.914; visually inspected at 390px",
+    "mobile_menu": "opens and closes with Escape in real Chrome",
+    "all_page_sweep": "incomplete: browser automation timed out during 320px sweep, subsequent tab recovery also timed out",
+    "screen_reader": "semantic markup/accessibility state only; no full assistive technology audit"
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "limits": [
+    "Robert/community editorial review is still needed.",
+    "Network protocol content is attributed working design, not executable production verification.",
+    "No GPU or network-capacity testing performed."
+  ]
+}

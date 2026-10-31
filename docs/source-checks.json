@@ -1,0 +1,129 @@
+{
+  "checked_at": "2026-10-31T11:34:20.139780+00:00",
+  "scope": "Bounded HTTP availability and video metadata, supplemented by manual primary-source review. HTTP success alone does not certify claims.",
+  "results": [
+    {
+      "id": "pgn",
+      "url": "https://github.com/wizz13150/prime-gap-network",
+      "http": 200,
+      "final_url": "https://github.com/wizz13150/prime-gap-network",
+      "title": "GitHub - wizz13150/prime-gap-network: Prime Gap Network (PGN): a community initiative conceived by Rob Smith (robert44444uk), bringing together prime-gap research, coordinated sear"
+    },
+    {
+      "id": "scout",
+      "url": "https://github.com/wizz13150/prime-gap-scout",
+      "http": 200,
+      "final_url": "https://github.com/wizz13150/prime-gap-scout",
+      "title": "GitHub - wizz13150/prime-gap-scout: Standalone NVIDIA CUDA prime-gap searcher with an interactive terminal, resumable ranges, and Windows/Ubuntu builds. · GitHub"
+    },
+    {
+      "id": "scout-validation",
+      "url": "https://github.com/wizz13150/prime-gap-scout/blob/main/Docs/VALIDATION.md",
+      "http": 200,
+      "final_url": "https://github.com/wizz13150/prime-gap-scout/blob/main/Docs/VALIDATION.md",
+      "title": "prime-gap-scout/Docs/VALIDATION.md at main · wizz13150/prime-gap-scout · GitHub"
+    },
+    {
+      "id": "records",
+      "url": "https://primegap-list-project.github.io/",
+      "http": 200,
+      "final_url": "https://primegap-list-project.github.io/",
+      "title": "&middot; Prime gap list"
+    },
+    {
+      "id": "nicely",
+      "url": "https://primegap-list-project.github.io/drtrnicely-format-legacy/",
+      "http": 200,
+      "final_url": "https://primegap-list-project.github.io/drtrnicely-format-legacy/",
+      "title": "Dr. Thomas R. Nicely’s original rubric &middot; Prime gap list"
+    },
+    {
+      "id": "oeis-gap",
+      "url": "https://oeis.org/A005250",
+      "http": 200,
+      "final_url": "https://oeis.org/A005250",
+      "title": "A005250 - OEIS"
+    },
+    {
+      "id": "oeis-start",
+      "url": "https://oeis.org/A002386",
+      "http": 200,
+      "final_url": "https://oeis.org/A002386",
+      "title": "A002386 - OEIS"
+    },
+    {
+      "id": "primepages",
+      "url": "https://t5k.org/notes/gaps.html",
+      "http": 200,
+      "final_url": "https://t5k.org/notes/gaps.html",
+      "title": "The Gaps Between Primes"
+    },
+    {
+      "id": "faq",
+      "url": "https://primegap-list-project.github.io/faq/",
+      "http": 200,
+      "final_url": "https://primegap-list-project.github.io/faq/",
+      "title": "FAQ &middot; Prime gap list"
+    },
+    {
+      "id": "large-gaps",
+      "url": "https://annals.math.princeton.edu/2016/183-3/p04",
+      "http": 200,
+      "final_url": "https://annals.math.princeton.edu/2016/183-3/p04",
+      "title": "Large gaps between consecutive prime numbers | Annals of Mathematics"
+    },
+    {
+      "id": "combined-sieve",
+      "url": "https://arxiv.org/abs/2012.03771",
+      "http": 200,
+      "final_url": "https://arxiv.org/abs/2012.03771",
+      "title": "[2012.03771] Combined Sieve Algorithm for Prime Gaps"
+    },
+    {
+      "id": "tao",
+      "url": "https://terrytao.wordpress.com/2014/08/21/large-gaps-between-consecutive-prime-numbers/",
+      "http": 200,
+      "final_url": "https://terrytao.wordpress.com/2014/08/21/large-gaps-between-consecutive-prime-numbers/",
+      "title": "Large gaps between consecutive prime numbers | What&#039;s new"
+    },
+    {
+      "id": "video-parker",
+      "url": "https://www.youtube.com/watch?v=SMsTXQYgbiQ",
+      "verification_url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSMsTXQYgbiQ&format=json",
+      "http": 200,
+      "final_url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSMsTXQYgbiQ&format=json",
+      "title": "Exploring the mysteries of the Prime (gaps!) Line.",
+      "author": "Stand-up Maths"
+    },
+    {
+      "id": "video-maynard",
+      "url": "https://www.youtube.com/watch?v=BH1GMGDYndo",
+      "verification_url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DBH1GMGDYndo&format=json",
+      "http": 200,
+      "final_url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DBH1GMGDYndo&format=json",
+      "title": "Large Gaps between Primes - Numberphile",
+      "author": "Numberphile"
+    },
+    {
+      "id": "bitcointalk",
+      "url": "https://bitcointalk.org/index.php?topic=822498.0",
+      "http": 200,
+      "final_url": "https://bitcointalk.org/index.php?topic=822498.0",
+      "title": "[ANN][GAP] Gapcoin - Prime Gap Search - New Math Algo - CPU / GPU - Zero Premine"
+    },
+    {
+      "id": "j0nn9",
+      "url": "https://gapcoin-project.github.io/j0nn9-technotes/",
+      "http": 200,
+      "final_url": "https://gapcoin-project.github.io/j0nn9-technotes/",
+      "title": "Technical notes posted by j0nn9 &middot; Gapcoin Project"
+    },
+    {
+      "id": "gapcoin",
+      "url": "https://gapcoin-project.github.io/",
+      "http": 200,
+      "final_url": "https://gapcoin-project.github.io/",
+      "title": "The Gapcoin project &middot; Gapcoin Project"
+    }
+  ]
+}

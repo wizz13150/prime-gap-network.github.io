@@ -1,0 +1,166 @@
+{
+  "reviewed": "2026-10-31",
+  "editorial_policy": "about.html#editorial",
+  "protocol_provenance": {
+    "type": "operator-supplied working design, attributed to Rob Smith",
+    "date": "2026-10-31",
+    "scope": "Ticket pool, commitments, two audits and ten distinct partitions, hidden expected counts, durable pending states, small-miner trust limits, Gold epoch and difficulty objective. Proposals, not production guarantees.",
+    "public_specification_available": false
+  },
+  "sources": [
+    {
+      "id": "pgn",
+      "category": "Software",
+      "title": "PGN project presentation",
+      "author": "Rob Smith’s initiative · PGN contributors",
+      "url": "https://github.com/wizz13150/prime-gap-network",
+      "purpose": "The public introduction, background, credit, and development objectives. Earlier reservation language is not a final ticket protocol.",
+      "type": "Primary project source"
+    },
+    {
+      "id": "scout",
+      "category": "Software",
+      "title": "Prime Gap Scout",
+      "author": "Prime Gap Scout contributors",
+      "url": "https://github.com/wizz13150/prime-gap-scout",
+      "purpose": "The separate CUDA searcher: supported ranges, releases, checkpoints, endpoint verification, and explicit coverage limits.",
+      "type": "Primary software source"
+    },
+    {
+      "id": "scout-validation",
+      "category": "Software",
+      "title": "Scout validation record",
+      "author": "Prime Gap Scout contributors",
+      "url": "https://github.com/wizz13150/prime-gap-scout/blob/main/Docs/VALIDATION.md",
+      "purpose": "Read the distinction between compilation, physical execution, and application validation before interpreting a software claim.",
+      "type": "Primary software documentation"
+    },
+    {
+      "id": "records",
+      "category": "Records",
+      "title": "Prime Gap List Project",
+      "author": "Prime Gap List Project maintainers",
+      "url": "https://primegap-list-project.github.io/",
+      "purpose": "A community-maintained route into tables, graphs, terminology, and the legacy first-occurrence record. This is an external project.",
+      "type": "Primary community record"
+    },
+    {
+      "id": "nicely",
+      "category": "Records",
+      "title": "How to read a gap table",
+      "author": "Thomas R. Nicely · preserved by the Prime Gap List Project",
+      "url": "https://primegap-list-project.github.io/drtrnicely-format-legacy/",
+      "purpose": "Nicely’s original rubric explains merit, status distinctions, abbreviations, and the evidence behind table entries. Historical submission details may be obsolete.",
+      "type": "Preserved original documentation"
+    },
+    {
+      "id": "oeis-gap",
+      "category": "Records",
+      "title": "Record gap lengths · A005250",
+      "author": "OEIS Foundation and sequence contributors",
+      "url": "https://oeis.org/A005250",
+      "purpose": "The sequence of record gaps between consecutive primes. Pair it with A002386 to connect lengths to their lower endpoints.",
+      "type": "Maintained reference sequence"
+    },
+    {
+      "id": "oeis-start",
+      "category": "Records",
+      "title": "Where record gaps begin · A002386",
+      "author": "OEIS Foundation and sequence contributors",
+      "url": "https://oeis.org/A002386",
+      "purpose": "Primes whose following gap exceeds every previous gap. Useful for checking small examples and the exact meaning of “record.”",
+      "type": "Maintained reference sequence"
+    },
+    {
+      "id": "primepages",
+      "category": "Learn",
+      "title": "The Gaps Between Primes",
+      "author": "PrimePages",
+      "url": "https://t5k.org/notes/gaps.html",
+      "purpose": "An introduction to prime gaps and numerical evidence. Note its convention: several tables count interior composites rather than endpoint distance.",
+      "type": "Primary educational reference"
+    },
+    {
+      "id": "faq",
+      "category": "Learn",
+      "title": "Prime-gap research FAQ",
+      "author": "Prime Gap List Project maintainers",
+      "url": "https://primegap-list-project.github.io/faq/",
+      "purpose": "Background on the community list and the differences among early instances, records, and exhaustive searches.",
+      "type": "Primary community explanation"
+    },
+    {
+      "id": "large-gaps",
+      "category": "Papers",
+      "title": "Large gaps between consecutive prime numbers",
+      "author": "Kevin Ford, Ben Green, Sergei Konyagin & Terence Tao · 2016",
+      "url": "https://annals.math.princeton.edu/2016/183-3/p04",
+      "purpose": "A research paper on asymptotic lower bounds for the largest gaps below a bound. Numerical searches do not replace these unbounded statements.",
+      "type": "Peer-reviewed paper"
+    },
+    {
+      "id": "combined-sieve",
+      "category": "Papers",
+      "title": "Combined Sieve Algorithm for Prime Gaps",
+      "author": "Seth Troisi · 2020",
+      "url": "https://arxiv.org/abs/2012.03771",
+      "purpose": "A computational paper describing how sieve work can be shared across candidate intervals. A targeted-search method, not a PGN implementation guarantee.",
+      "type": "Author preprint"
+    },
+    {
+      "id": "tao",
+      "category": "Papers",
+      "title": "The large-gap problem, explained by an author",
+      "author": "Terence Tao · 2014",
+      "url": "https://terrytao.wordpress.com/2014/08/21/large-gaps-between-consecutive-prime-numbers/",
+      "purpose": "An author’s mathematical discussion of large gaps, composite runs, and why the asymptotic question is different from finding individual examples.",
+      "type": "Author research article"
+    },
+    {
+      "id": "video-parker",
+      "category": "Videos",
+      "title": "Exploring the mysteries of the Prime (gaps!) Line.",
+      "author": "Matt Parker · Stand-up Maths",
+      "url": "https://www.youtube.com/watch?v=SMsTXQYgbiQ",
+      "purpose": "An accessible visual exploration of prime-gap patterns. A friendly starting point before reading research tables. Opens on YouTube; no third-party player loads here.",
+      "type": "Educational video"
+    },
+    {
+      "id": "video-maynard",
+      "category": "Videos",
+      "title": "Large Gaps between Primes",
+      "author": "James Maynard · Numberphile",
+      "url": "https://www.youtube.com/watch?v=BH1GMGDYndo",
+      "purpose": "A short Numberphile interview with James Maynard, introducing large gaps and why they matter. Opens on YouTube.",
+      "type": "Educational interview"
+    },
+    {
+      "id": "bitcointalk",
+      "category": "History",
+      "title": "The original Gapcoin discussion",
+      "author": "Gapcoin community · BitcoinTalk · 2014 onward",
+      "url": "https://bitcointalk.org/index.php?topic=822498.0",
+      "purpose": "The historical announcement and ensuing discussion of a separate prime-gap cryptocurrency. Read dated posts as historical claims, not PGN specifications.",
+      "type": "Primary historical discussion"
+    },
+    {
+      "id": "j0nn9",
+      "category": "History",
+      "title": "Gapcoin developer’s technical posts",
+      "author": "j0nn9 · preserved by Graham Higgins",
+      "url": "https://gapcoin-project.github.io/j0nn9-technotes/",
+      "purpose": "Date-sorted BitcoinTalk explanations of Gapcoin’s sieve, verification, and parameters. Historical design assertions, not PGN rules or a modern correctness certificate.",
+      "type": "Archived primary discussion"
+    },
+    {
+      "id": "gapcoin",
+      "category": "History",
+      "title": "Graham Higgins’s Gapcoin community resource",
+      "author": "Graham Higgins and Gapcoin Project contributors",
+      "url": "https://gapcoin-project.github.io/",
+      "purpose": "An archive spanning mathematics, mining, software, posts, and videos. Consulted for the breadth of community resources; its prose and visual design are not reused.",
+      "type": "External community archive"
+    }
+  ],
+  "artwork": "Original native SVG and browser code; no external imagery or video embeds."
+}

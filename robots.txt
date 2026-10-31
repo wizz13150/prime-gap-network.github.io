@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wizz13150.github.io/prime-gap-network.github.io/sitemap.xml
