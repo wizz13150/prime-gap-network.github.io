@@ -1,111 +1,90 @@
 {
   "request": "B971-PGN-WEBSITE",
-  "reviewed": "2026-10-31T11:42:22.530Z",
+  "reviewed": "2026-10-31T12:21:47.183Z",
+  "phase": "consolidated source verified; live verification follows publication",
   "checks": {
-    "static": {
-      "html_documents": 8,
-      "internal_links": 209,
-      "sources": 17,
-      "errors": 0
-    },
-    "javascript_syntax": "passed",
-    "interaction_harness": "passed: four exact consecutive-prime examples, combined library filters, empty results/reset, menu Escape/focus",
-    "external_sources": "17/17 HTTP 200, including official YouTube oEmbed metadata"
+    "html_documents": 9,
+    "internal_links": 256,
+    "source_inventory": 18,
+    "external_sources": "18/18 HTTP200 including official video metadata",
+    "javascript": "syntax passed",
+    "independent_contracts": "5 gap examples/invalid values;16 sieve combinations;challenge/reset;5 session stages;filters/long input/reset/history restoration;menu focus;table keys",
+    "pdf_public_links": 0,
+    "dependencies": 0
   },
   "browser": {
-    "desktop_homepage": "visually inspected at 1920px",
-    "mobile_homepage": "visually inspected at 390px, no horizontal overflow",
-    "mobile_explorer": "23–29 selected; output gap 6, composites 5, merit 1.914; visually inspected at 390px",
-    "mobile_menu": "opens and closes with Escape in real Chrome",
-    "all_page_sweep": "passed in independent IAB after Chrome automation stalled: all seven pages at observed CSS widths 355, 853 and 1280px; no document horizontal overflow",
-    "screen_reader": "semantic markup/accessibility state only; no full assistive technology audit",
-    "library": "real IAB: Videos + Maynard yields exactly one resource",
-    "faq": "real IAB: first FAQ expands",
-    "console": "no errors observed during local interaction checks or live homepage review",
-    "live": "actual public homepage rendered and screenshot inspected"
-  },
-  "deployment": {
-    "status": "built",
-    "url": "https://wizz13150.github.io/prime-gap-network.github.io/",
-    "pages_source": "main /",
-    "content_commit": "844bbd747dc3c16a9d31918c9e166b58dbb61419",
-    "checked_files": [
-      {
-        "path": "/",
-        "status": 200,
-        "matches_local": true,
-        "bytes": 11754
-      },
-      {
-        "path": "learn.html",
-        "status": 200,
-        "matches_local": true,
-        "bytes": 11482
-      },
-      {
-        "path": "network.html",
-        "status": 200,
-        "matches_local": true,
-        "bytes": 10939
-      },
-      {
-        "path": "software.html",
-        "status": 200,
-        "matches_local": true,
-        "bytes": 10189
-      },
-      {
-        "path": "participate.html",
-        "status": 200,
-        "matches_local": true,
-        "bytes": 11678
-      },
-      {
-        "path": "resources.html",
-        "status": 200,
-        "matches_local": true,
-        "bytes": 14948
-      },
-      {
-        "path": "about.html",
-        "status": 200,
-        "matches_local": true,
-        "bytes": 10239
-      },
-      {
-        "path": "404.html",
-        "status": 200,
-        "matches_local": true,
-        "bytes": 3948
-      },
-      {
-        "path": "assets/site.js",
-        "status": 200,
-        "matches_local": true,
-        "bytes": 2876
-      },
-      {
-        "path": "assets/style.css",
-        "status": 200,
-        "matches_local": true,
-        "bytes": 15688
-      },
-      {
-        "path": "sources.json",
-        "status": 200,
-        "matches_local": true,
-        "bytes": 8000
-      }
+    "page_sweeps": {
+      "pages": 7,
+      "widths": [
+        320,
+        768,
+        1280
+      ],
+      "horizontal_overflow": 0,
+      "contrast_failures_in_default_HTML_text_samples": 0,
+      "screenshots": "retained in the bounded mission screenshot folder"
+    },
+    "native_zoom": {
+      "percent": 200,
+      "pages": 7,
+      "observed_dpr": 2,
+      "overflow": 0,
+      "restored_to": 100
+    },
+    "interactions": [
+      "all5 gap examples",
+      "sieve Space/Enter and challenge feedback",
+      "7 library categories",
+      "Maynard+Videos combined filter",
+      "Unicode/160-character queries and clear focus",
+      "Back preserves query and category after repair",
+      "12 FAQ expansions",
+      "5 session stages",
+      "menu Escape and focus",
+      "skip link focuses main",
+      "table ArrowRight/End/Home after repair",
+      "real no-script teaching/library fallback",
+      "reduced motion scroll behavior",
+      "literary note pointer/keyboard/Escape and clear no-reader notice"
     ],
-    "custom_404": {
-      "status": 404,
-      "custom_404": true,
-      "absolute_asset_base": true
-    }
+    "console_errors_observed": 0,
+    "full_assistive_technology_audit": false
   },
-  "limits": [
-    "Robert/community editorial review is still needed.",
-    "Network protocol content is attributed working design, not executable production verification.",
-    "No GPU or network-capacity testing performed."
-  ]
+  "source_semantics": "docs/source-review.md",
+  "literary_reader": {
+    "status": "awaiting operator-supplied text",
+    "current_UI": "original micro-note plus a real link to an explicitly labelled original visual study; no full-story reader link, PDF URL, or embed",
+    "future_action_guard": "Requires an existing local HTML reader."
+  },
+  "deployment_url": "https://wizz13150.github.io/prime-gap-network.github.io/",
+  "limitations": [
+    "Protocol proposals and software validation scopes remain explicit.",
+    "No GPU or production-network verification is part of this site release.",
+    "Full literary text/reader is not implemented."
+  ],
+  "cinematic_prototype": {
+    "route": "interlude.html",
+    "format": "original Canvas/SVG with three short original captions",
+    "shots": 3,
+    "checked_widths": [
+      320,
+      768,
+      1280
+    ],
+    "horizontal_overflow": 0,
+    "observed": [
+      "scene selection",
+      "Home/ArrowRight keyboard control",
+      "comparison overlay",
+      "pause",
+      "automatic sequence advanced to shot2",
+      "reduced-motion starts still",
+      "no-script exposes3captions and disables controls"
+    ],
+    "console_errors": 0,
+    "native_200_percent_zoom": "Not completed: physical Escape interrupted the browser before this extra check.",
+    "video_generated": false,
+    "audio": false,
+    "full_Lafferty_story_included": false
+  }
 }

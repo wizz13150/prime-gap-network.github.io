@@ -81,7 +81,7 @@ for source in inventory['sources']:
         errors.append('Source missing from library: ' + source['id'])
 for required in ['.nojekyll', 'sitemap.xml', 'robots.txt', 'CONTRIBUTING.md', 'docs/QA.md']:
     if not (ROOT / required).exists(): errors.append('Missing ' + required)
-for old in ['Samuel Troisi', 'A longer mathematical lecture', 'v1.3.5']:
+for old in ['Samuel Troisi', 'A longer mathematical lecture', 'v1.3.5', '1970-lafferty.pdf', 'gwern.net']:
     if any(old in p.read_text(encoding='utf-8') for p in ROOT.glob('*.html')):
         errors.append('Unverified/stale wording: ' + old)
 print(json.dumps({'pages': len(pages), 'local_links': link_count,

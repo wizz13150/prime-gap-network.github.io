@@ -8,7 +8,7 @@ For a correction, open an issue with the page, exact claim, and a primary source
 
 The published files are ordinary HTML, CSS, and JavaScript. Python's standard library generates repeated page structure; no packages or Node dependencies are required.
 
-1. Edit content and shared templates in `tools/build.py`.
+1. Edit shared templates in `tools/build.py` and teaching visuals/content in `tools/learning_content.py`.
 2. Edit styling in `assets/style.css` and interactions in `assets/site.js`.
 3. Run `python tools/build.py` and `python tools/check.py`.
 4. Check JavaScript with `node --check assets/site.js` and `node tools/check-interactions.cjs`.

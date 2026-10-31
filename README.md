@@ -8,7 +8,7 @@ The community website for **Prime Gap Network (PGN)** — a collaborative prime-
 
 **[Visit the community website](https://wizz13150.github.io/prime-gap-network.github.io/)**
 
-Seven English-language pages cover the science, working network design, software, participation, FAQ, library, documented background, roadmap, and credits. A small local prime-gap explorer and searchable source library add practical learning tools.
+Seven English-language pages cover the science, working network design, software, participation, FAQ, library, documented background, roadmap, and credits. An exact small-number sieve mission, gap challenge, prime-gap explorer, illustrated Scout session map, and searchable source library make the subject practical and approachable. All teaching interactions run locally; they are distinct from real search results and network rewards. A separate original three-shot visual study explores chance, patience, and checking; it is a cinematic prototype, not the complete Lafferty story.
 
 ## Purpose
 

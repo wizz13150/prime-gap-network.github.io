@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-31T11:34:20.139780+00:00",
+  "checked_at": "2026-10-31T11:51:45.390247+00:00",
   "scope": "Bounded HTTP availability and video metadata, supplemented by manual primary-source review. HTTP success alone does not certify claims.",
   "results": [
     {
@@ -50,6 +50,13 @@
       "http": 200,
       "final_url": "https://oeis.org/A002386",
       "title": "A002386 - OEIS"
+    },
+    {
+      "id": "sieve",
+      "url": "https://t5k.org/glossary/page.php?sort=SieveOfEratosthenes",
+      "http": 200,
+      "final_url": "https://t5k.org/glossary/page.php?sort=SieveOfEratosthenes",
+      "title": "The Prime Glossary: Sieve of Eratosthenes"
     },
     {
       "id": "primepages",

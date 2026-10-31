@@ -72,6 +72,15 @@
       "type": "Maintained reference sequence"
     },
     {
+      "id": "sieve",
+      "category": "Learn",
+      "title": "Sieve of Eratosthenes",
+      "author": "PrimePages",
+      "url": "https://t5k.org/glossary/page.php?sort=SieveOfEratosthenes",
+      "purpose": "The classical sieve: remove multiples of small primes. Supports the teaching lab; it does not certify a different large-integer search implementation.",
+      "type": "Primary educational reference"
+    },
+    {
       "id": "primepages",
       "category": "Learn",
       "title": "The Gaps Between Primes",
@@ -162,5 +171,12 @@
       "type": "External community archive"
     }
   ],
-  "artwork": "Original native SVG and browser code; no external imagery or video embeds."
+  "literary_easter_egg": {
+    "title": "Been A Long, Long Time",
+    "author": "R. A. Lafferty",
+    "type": "Fiction; discreet footer reference, not mathematical or PGN evidence",
+    "visual_study": "interlude.html",
+    "full_story_included": false
+  },
+  "artwork": "Original native SVG, exact small-integer sieve mission, session-map illustrations, Canvas cinematic study, and browser code; no external imagery, audio, or video embeds."
 }
