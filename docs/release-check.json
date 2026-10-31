@@ -4,13 +4,14 @@
   "phase": "consolidated source verified; live verification follows publication",
   "checks": {
     "html_documents": 9,
-    "internal_links": 256,
+    "internal_links": 265,
     "source_inventory": 18,
     "external_sources": "18/18 HTTP200 including official video metadata",
     "javascript": "syntax passed",
     "independent_contracts": "5 gap examples/invalid values;16 sieve combinations;challenge/reset;5 session stages;filters/long input/reset/history restoration;menu focus;table keys",
     "pdf_public_links": 0,
-    "dependencies": 0
+    "dependencies": 0,
+    "favicon": "Original SVG plus a validated 16/32/48/64-pixel ICO compatibility fallback; no new dependency installed."
   },
   "browser": {
     "page_sweeps": {

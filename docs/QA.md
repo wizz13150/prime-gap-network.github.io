@@ -14,7 +14,7 @@ node tools/check-interactions.cjs
 python tools/check.py --external
 ```
 
-The integrity checker covers nine HTML documents, local targets/fragments, duplicate IDs, landmarks, metadata, labelled controls, script provenance, source coverage, and forbidden stale claims/PDF links. The current result is 256 internal links, 18 curated sources and zero errors.
+The integrity checker covers nine HTML documents, local targets/fragments, duplicate IDs, landmarks, metadata, labelled controls, script provenance, source coverage, and forbidden stale claims/PDF links. The current result is 265 internal links, 18 curated sources and zero errors.
 
 The independent interaction harness checks five consecutive-prime examples, invalid selection recovery, all 16 sieve-pass combinations against trial division, the 15 surviving primes and largest gap 6, challenge/reset behavior, five session stages, library filtering/long input/reset/history restoration, menu Escape/focus, and horizontal table arrow/Home/End keys. It is not a rendering test.
 
@@ -55,3 +55,5 @@ The separate interlude.html route contains three original Canvas/SVG shots about
 Motion uses a bounded frame loop, pauses when the page is hidden, and caps canvas pixel ratio at 1.5; these are implementation limits, not hardware-independent performance or energy claims. There is no generated video or audio asset. The new interlude’s additional native 200% zoom check was interrupted by a physical Escape stop before it ran; the earlier 200% check covered the seven main pages. No missing check is promoted to a pass.
 
 The visual study is an original prototype, not a complete adaptation or a full text reader. Integration of the full story remains dependent on operator-supplied text.
+
+A small ICO compatibility export of the original SVG mark is explicitly linked alongside the SVG. It addresses a browser fallback favicon request observed during local no-script testing. The committed export keeps normal builds dependency-free.
