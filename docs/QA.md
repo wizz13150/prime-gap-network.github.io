@@ -29,7 +29,7 @@ External checks are bounded to 64 KB per source and recorded in `source-checks.j
 
 ## Browser review
 
-Browser observations and the deployment receipt are recorded in `release-check.json` after inspection. Scope includes desktop/mobile layout, the gap selector, library filtering, the mobile menu, FAQ expansion, console errors, and the real GitHub Pages URL. Screen-reader behavior is reviewed through semantic markup and accessibility state; a full assistive-technology audit has not been performed.
+Browser observations and the deployment receipt are recorded in `release-check.json`. All seven pages were checked for horizontal overflow at observed CSS viewport widths of 355, 853 and 1280 pixels. Homepage and explorer screenshots were inspected on desktop and mobile. Real interactions cover the gap selector, combined library filters, mobile menu Escape/focus, and FAQ expansion. The live homepage was rendered and inspected without observed console errors. GitHub Pages reports a successful build; all seven pages, 404, CSS/JS and source inventory returned HTTP 200 and matched the checked source after newline normalization. The missing-route check verifies the custom 404 separately. Screen-reader behavior is reviewed through semantic markup and accessibility state; a full assistive-technology audit has not been performed.
 
 ## Remaining limits
 
